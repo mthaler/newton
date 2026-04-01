@@ -23,7 +23,7 @@ func main() {
 	fmt.Printf("%+v\n", a)
 
 	for {
-		fmt.Println("Please enter a guess for the zero or c to continue:")
+		fmt.Println("Please enter a guess for the root or c to continue:")
 		fmt.Scanln(&s)
 		if s == "c" {
 			break
