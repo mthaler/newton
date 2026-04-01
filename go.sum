@@ -1,2 +1,4 @@
 github.com/mthaler/aparser v0.0.0-20260331054752-68da8c4602cf h1:shrPON3fTdxnGbiLOC21Cr2DL0SHWe/EPX4sL6RSp0Q=
 github.com/mthaler/aparser v0.0.0-20260331054752-68da8c4602cf/go.mod h1:zoGEn+YdGP143BOs3lDQV6AcPjX5EMCML6pazo16nI4=
+github.com/mthaler/aparser v0.0.0-20260331081454-52f410212d2b h1:k7FDLkSThxDlIUwlxih90kGVKe8UwT9DHX+deWv1nhk=
+github.com/mthaler/aparser v0.0.0-20260331081454-52f410212d2b/go.mod h1:zoGEn+YdGP143BOs3lDQV6AcPjX5EMCML6pazo16nI4=
