@@ -36,5 +36,7 @@ func main() {
 		}
 	}
 
-	fmt.Printf("%+v\n", roots)
+	for _, r := range roots {
+		fmt.Println(r)
+	}
 }
