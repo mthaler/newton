@@ -4,13 +4,12 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/mthaler/aparser"
 	"github.com/mthaler/aparser/ast"
 	"github.com/mthaler/aparser/expr"
 )
 
 func main() {
-	var zeros []float64
+	var roots []float64
 
 	s := ""
 	fmt.Println("Please enter a function:")
@@ -29,19 +28,13 @@ func main() {
 			break
 		}
 
-		z, err := strconv.ParseFloat(s, 64)
+		r, err := strconv.ParseFloat(s, 64)
 
-		zeros = append(zeros, z)
+		roots = append(roots, r)
 		if err != nil {
 			panic(err)
 		}
 	}
 
-	fmt.Printf("%+v\n", zeros)
-
-	r, err := aparser.Eval("3 + 4")
-	if err != nil {
-		panic(err)
-	}
-	fmt.Println(r)
+	fmt.Printf("%+v\n", roots)
 }
