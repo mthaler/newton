@@ -10,11 +10,13 @@ import (
 func main() {
 	var zeros []float64
 
+	s := ""
+	fmt.Println("Please enter a function:")
+
 	for {
-		s := ""
-		fmt.Println("Please enter a guess for the zero or q to quit")
-		fmt.Scanln(s)
-		if s == "q" {
+		fmt.Println("Please enter a guess for the zero or c to continue:")
+		fmt.Scanln(&s)
+		if s == "c" {
 			break
 		}
 
