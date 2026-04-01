@@ -8,14 +8,13 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello, World!")
-
 	var zeros []float64
 
 	for {
 		s := ""
+		fmt.Println("Please enter a guess for the zero or q to quit")
 		fmt.Scanln(s)
-		if s == "" {
+		if s == "q" {
 			break
 		}
 
